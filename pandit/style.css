@@ -5,8 +5,26 @@
 
 .sidebar {
     background-color: blue;
-
+    width: 10vw;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
 }
+.sidebar nav {
+    padding: 60px;
+    
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 10;
+    margin: 10;
+}
+
 .main {
     background-color: orange;
+    width: 90vw;
+}
+
+.container {
+    display: flex;
 }

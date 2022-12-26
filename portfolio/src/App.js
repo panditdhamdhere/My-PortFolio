@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
 // import './App.css';
-
+import Navbar from "./Components/Navbar";
 function App() {
   return (
     <div>
-     <h1 className="text-4xl"> Hello Pandit </h1>
+     <Navbar />
     </div>
   );
 }

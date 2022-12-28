@@ -27,7 +27,7 @@ const Navbar = () => {
     return (
         <div className='flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed'>
             <div>
-                <h1 className='text-5xl font-signature ml-1 text-blue-500'>Pandit</h1>
+                <h1 className='text-2xl font- ml-1 text-white'>Pandit</h1>
             </div>
             <ul className='hidden md:flex'>
                 {links.map(({ id, link }) => (
@@ -38,6 +38,9 @@ const Navbar = () => {
                     </li>
                 ))}
             </ul>
+
+            {/* JavaScript Stuff 28-12-2022 with nav -- pandit*/}
+
             <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-blue-500 md:hidden'>
                 {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
             </div>

@@ -8,8 +8,8 @@ const Home = () => {
 
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
 
-                <div className='flex flex-col'>
-                    <h2>Hi I am Pandit Frontend Web Developer</h2>
+                <div className='flex flex-col justify-center h-full'>
+                    <h2 className='text-4xl sm:text-7xl font-bold text-white'>Hi I am Pandit👋 Frontend Web Developer</h2>
                     <p>I am young passionate web developer based in Pune India.
                         I love to solve problems through coding.
                     </p>

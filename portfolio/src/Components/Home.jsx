@@ -4,20 +4,20 @@ import { MdKeyboardArrowRight } from 'react-icons/md'
 
 const Home = () => {
     return (
-        <div name="home" className='h-screen w-full bg-gradient-to-b from-black to-blue-500'>
+        <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-blue-500'>
 
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
 
                 <div className='flex flex-col justify-center h-full'>
                     <h2 className='text-4xl sm:text-7xl font-bold text-white'>Hi I am Pandit👋 Frontend Web Developer</h2>
-                    <p>I am young passionate web developer based in Pune India.
+                    <p className='text-orange-500 text-bold py-4 max-w-md'>I am young passionate web developer based in Pune India.
                         I love to solve problems through coding.
                     </p>
                     <div>
-                        <button>
-                            portfolio
-                            <span>
-                                <MdKeyboardArrowRight />
+                        <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                            Portfolio
+                            <span className='group-hover:rotate-90 duration-300'>
+                                <MdKeyboardArrowRight size={40} className='ml-1'/>
                             </span>
                         </button>
 

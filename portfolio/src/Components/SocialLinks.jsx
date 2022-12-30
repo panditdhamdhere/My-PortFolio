@@ -55,10 +55,10 @@ const SocialLinks = () => {
 
 
     return (
-        <div className=' flex flex-col top-[35%] left-0 fixed'>
+        <div className=' flex flex-col top-[30%] left-0 fixed'>
             <ul>
 
-                {links.map(({id, child, href, style, download}) => (
+                {links.map(({ id, child, href, style, download }) => (
                     <li
                         key={id}
                         className={
@@ -68,10 +68,9 @@ const SocialLinks = () => {
                             href={href}
                             className='flex justify-between items-center w-full text-white'
                             download={download}
-                            target="_blank"
-                            rel="noopener"
+                            target="_blank" rel="noopener"
                         >
-{child}
+                            {child}
                         </a>
                     </li>
 

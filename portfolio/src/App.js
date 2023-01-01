@@ -4,15 +4,15 @@ import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import SocialLinks from "./Components/SocialLinks";
 import About from "./Components/About";
-import Portfolio from "./Components/Portfolio";
+import TechStack from "./Components/TechStack";
 function App() {
   return (
     <div>
       <Navbar />
       <Home />
       <About />
-      <Portfolio />
       <SocialLinks />
+      <TechStack />
     </div>
   );
 }

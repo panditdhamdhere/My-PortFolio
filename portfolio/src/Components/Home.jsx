@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../Assets/heroImage.png'
+// import HeroImage from '../Assets/heroImage.png'
 import { MdKeyboardArrowRight } from 'react-icons/md'
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
                     </p>
                     <div>
                         <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
-                            Portfolio
+                            My Tech stack
                             <span className='group-hover:rotate-90 duration-300'>
                                 <MdKeyboardArrowRight size={40} className='ml-1'/>
                             </span>

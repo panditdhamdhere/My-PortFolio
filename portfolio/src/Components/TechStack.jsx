@@ -4,14 +4,13 @@ import css from '../Assets/css.png'
 import javascript from '../Assets/javascript.png'
 import tailwind from '../Assets/tailwind.png'
 import github from '../Assets/github.png'
-import react from '../Assets/react.png'
-import next from '../Assets/nextjs.png'
+import reactImage from '../Assets/react.png'
+import nextjs from '../Assets/nextjs.png'
 import git from '../Assets/git.png'
 
 const TechStack = () => {
     const techStack = () => {
-
-        const tech = [
+        const techs = [
             {
                 id: 1,
                 src: html,
@@ -66,8 +65,8 @@ const TechStack = () => {
                 src: github,
                 title: 'GitHub',
                 style: 'shadow-black'
-                },
-        ]
+            }
+        ];
     }
 
 
@@ -82,10 +81,17 @@ const TechStack = () => {
                 </div>
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
-                    <div className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg '>
-                        <img src={html} alt="" className='w-20 mx-auto' />
-                        <p className='mt-4'>HTML5</p>
-                    </div>
+                    {
+                        techs.map(({ id, src, title, style }) => (
+
+                            <div 
+                            key={id}
+                            className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+                                <img src={src} alt="" className='w-20 mx-auto'/>
+                                <p className='mt-4'>{title}</p>
+                            </div>
+                        ))
+                    };
                 </div>
             </div>
         </div>

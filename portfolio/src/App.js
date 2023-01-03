@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import SocialLinks from "./Components/SocialLinks";
 import About from "./Components/About";
 import TechStack from "./Components/TechStack";
+import Contact from "./Components/Contact";
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
       <About />
       <SocialLinks />
       <TechStack />
+      <Contact />
     </div>
   );
 }

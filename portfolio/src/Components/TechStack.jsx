@@ -9,7 +9,7 @@ import nextjs from '../Assets/nextjs.png'
 import git from '../Assets/git.png'
 
 const TechStack = () => {
-    const techStack = () => {
+    
         const techs = [
             {
                 id: 1,
@@ -67,7 +67,7 @@ const TechStack = () => {
                 style: 'shadow-black'
             }
         ];
-    }
+    
 
 
 
